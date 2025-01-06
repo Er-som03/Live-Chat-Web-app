@@ -1,4 +1,4 @@
-const socket = io()
+const socket = io("https://live-chat-web-app-7ki6.onrender.com")
 
 let name;
 let textarea = document.querySelector('#textarea')
