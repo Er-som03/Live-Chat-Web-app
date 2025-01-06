@@ -10,7 +10,7 @@ http.listen(PORT, ()=>{
     console.log(`Listening on port ${PORT}`)
 })
 
-app.use(express.static(__dirname+'/public'))
+app.use(express.static(__dirname))
 
 
 app.get('/',(req,res) =>{
